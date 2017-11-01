@@ -12,6 +12,10 @@ body {
 
 /* general */
 
+a:hover {
+  color: blue;
+}
+
 .container {
   width: 100%;
   max-width: 960px;
