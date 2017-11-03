@@ -111,6 +111,10 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /* sidebar */
@@ -153,7 +157,7 @@ h3,
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  max-width: 768px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -242,23 +246,98 @@ input[type=submit] {
   border: 0 none;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
 @media screen and (max-width: 980px) {
-  
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 640px) {
-  header {
-    position: static;
+  body {
+    max-width: 780px;
   }
+  nav {
+    float: right;
+    margin-right: 100px;
+  }
+  #logo {
+    margin-left: 90px;
+  }
+  #main-container {
+    max-width: 780;
+    margin-left: 100px;
+  }
+  .main-section {
+    max-width: 480px;
+  }
+  .auth-image {
+    width: 420px;
+  }
+  .work {
+    width: 420px;
+  }
+  .sidebar {
+    float: right;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    float: right;
+    margin-right: 20px;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  #main-container {
+    max-width: 728px;
+    margin-left: 20px;
+  }
+  .main-section {
+    max-width: 728px;
+  }
+  .auth-image {
+    width: 320px;
+  }
+  .sidebar {
+    float: left;
+    max-width: 728px;
+  }
+}
+@media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+    margin-left: 0;
+  }
+  #logo {
+    margin-left: 0;
+    width: 640px;
+  }
+  nav {
+    float: left;
+  }
+  nav a {
+    text-align: center;
+    width: 188px;
+    position: relative;
+    bottom: 10px;
+  }
+  #main-container {
+    max-width: 600px;
+    padding-top: 0px;
+  }
+  .main-section {
+    position: relative;
+    bottom: 10px;
+  }
+  .auth-image {
+    width: 540px;
+  }
+  .work {
+    width: 540px;
+  }
+  .sidebar {
+    float: left;
+    position: relative;
+    bottom: 15px;
+    max-width: 600px;
+  }
+  footer {
+    position: static;
+    border-bottom: 20px;
+    border-style: solid;
+    border-bottom-color: white;
 }
