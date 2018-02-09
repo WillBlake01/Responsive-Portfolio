@@ -295,6 +295,7 @@ input[type=submit] {
   .sidebar {
     float: left;
     max-width: 728px;
+    margin-bottom: 140px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -332,7 +333,7 @@ input[type=submit] {
   .sidebar {
     float: left;
     position: relative;
-    bottom: 15px;
+    margin-bottom: 20px;
     max-width: 600px;
   }
   footer {
