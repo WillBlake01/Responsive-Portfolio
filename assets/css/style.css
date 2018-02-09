@@ -300,12 +300,12 @@ input[type=submit] {
 }
 @media screen and (max-width: 667px) {
   .container {
-      width: auto;
+      width: 667px;
   }
   #masthead {
     position: static;
     margin-left: 0;
-    width: auto;
+    width: 667px;
   }
   #logo {
     margin-left: 0;
@@ -345,6 +345,6 @@ input[type=submit] {
     border-bottom: 20px;
     border-style: solid;
     border-bottom-color: white;
-    width: auto;
+    width: 667px;
   }
 }
