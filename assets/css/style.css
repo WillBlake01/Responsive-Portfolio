@@ -329,16 +329,16 @@ input[type=submit] {
     bottom: 10px;
   }
   .auth-image {
-    width: 540px;
+    width: 565px;
   }
   .work {
-    width: 540px;
+    width: 565px;
   }
   .sidebar {
     float: left;
     position: relative;
     margin-bottom: 20px;
-    max-width: 600px;
+    max-width: 627px;
   }
   footer {
     position: static;
