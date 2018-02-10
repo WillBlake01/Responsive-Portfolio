@@ -30,6 +30,9 @@ h3,
 p {
   margin-bottom: 20px;
 }
+.bio {
+    text-indent: 50px;
+}
 
 p:last-child {
   margin-bottom: 0;
@@ -266,6 +269,7 @@ input[type=submit] {
   }
   .auth-image {
     width: 420px;
+    margin-bottom: 12px;
   }
   .work {
     width: 420px;
