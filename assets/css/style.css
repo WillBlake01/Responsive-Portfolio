@@ -104,6 +104,7 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+
 /* footer */
 
 footer {
@@ -269,7 +270,7 @@ input[type=submit] {
   }
   .auth-image {
     width: 420px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
   .work {
     width: 420px;
